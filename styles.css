@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Rubik:wght@500&display=swap');
+
+body {
+ color: #164C7E;
+ font-family: 'DM Sans', sans-serif;
+ font-size: 28px;
+ background-color: #F9F2EA;
+ text-align: center;
+ background-image: url("images/burnt_red.png");
+ background-size: cover;
+}
+
+#header{
+  position: relative;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  display:inline;
+  line-height: 30px;
+}
+
+h2 {
+color: #575F7D;
+font-size: 30px;
+font-weight: 400;
+}
+
+#intro-white  {
+margin-top: 160px;
+border: 2px solid #164C7E;
+box-shadow: 3px 4px #164C7E;
+border-radius: 5px;
+width: 900px;
+}
+
+h3 {
+  color: #164C7E;
+  font-size: 28px;
+  font-weight: 200;
+}
+
+#list-purple {
+margin-top: 30px;
+margin-bottom: 30px;
+border: 2px solid #164C7E;
+box-shadow: 3px 4px #164C7E;
+border-radius: 5px;
+width: 450px;
+height: 150px;
+}
+
+a {
+text-decoration: none;
+color:  #575F7D;
+font-size: 28px;
+}
+
+a:hover{
+color: #164C7E;
+}
+
+#img-circle {
+border-radius: 50%;
+width: 150px;
+height: auto;
+position: relative;
+
+}
+.button {
+padding: 10px;
+background-color: whitesmoke;
+color: #164C7E;
+border: 2px solid #164C7E;
+box-shadow: 3px 4px;
+border-radius: 5px;
+font-size: 20px;
+margin-top: 10px;
+}
+
+.button:hover{
+color: #F9F2EA;
+background-color: #164C7E;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.custom-shape-divider-top-1637682630 {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1637682630 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 189px;
+}
+
+.custom-shape-divider-top-1637682630 .shape-fill {
+    fill: #FED2AA;
+}
+
+.container {
+margin: 0 auto;
+background-color: whitesmoke;
+}
+
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  #intro-white {
+    width: 700px;
+  }
+    #list-purple {
+    width: 340px;
+    height: 140px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  #intro-white {
+    width: 500px;
+  }
+
+  h2 {
+  font-size: 20px;
+  }
+
+  h3{
+  font-size: 20px;
+  }
+
+  #list-purple {
+    width: 320px;
+    height: 120px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  #header{
+   font-size: 20px;
+  }
+  .custom-shape-divider-top-1637682630 svg {
+    display: none;
+  }
+  .custom-shape-divider-top-1637682630 {
+    display: none;
+  }
+  .custom-shape-divider-top-1637682630 .shape-fill {
+    display: none;
+  }
+
+  .button {
+    font-size: 15px;
+    margin-right: 20px;
+ }
+   #intro-white {
+    width: 300px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+  h3 {
+  display: none;
+  }
+
+  ul {
+    margin-top: 10px;
+  }
+
+  #list-purple {
+    width: 150px;
+    height: 50px;
+  }
+
+}
